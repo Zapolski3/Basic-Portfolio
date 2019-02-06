@@ -26,8 +26,10 @@ body {
 .nav    {
     text-align:right;
     margin-top:-65px;
-    margin-right:340px;
-    }
+    margin-right:320px; }
+
+    
+
 
 
 
@@ -36,10 +38,10 @@ body {
             margin:40px auto 100px auto;
             padding:25px;}
     
-.contact {
+.contactH {
 color:#4aaaa5;
 font-size:32px;
-margin-left:30px;
+margin-left:0px;
 margin-top:20px;}
 
 .footer {
@@ -50,23 +52,26 @@ margin-top:20px;}
     height:60px;
     background-color:#666666;
     text-align:center;
+    line-height: 90px;
     border-top:6px solid #4aaaa5;}
 
 h1,h2 {
     font-family:Georgia,'Times New Roman', Times, serif;}
 
 p {
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 30px;}
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 30px;}    
 
-.img {
-    float:left;
-    padding:10px 20px 10px 0px;
-}
+.submit { background-color:#4aaaa5;
+        color:white;
+        font-size:100%;
+        width:95px;
+        height:35px;}
 
-.about {
-    padding-right:25px;}
+.about, .portfolio, .contact {
+            text-decoration: none;
+            color:#777777;
+            padding-right:25px;}
 
-.portfolio {
-    padding-right:25px;
-}
+
+
